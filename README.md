@@ -1,4 +1,9 @@
 # alura_imersao_gemini_ia
+
+Estou em transição de carreira e participando da Imersão da Alura sobre a AI da Google - Gemini, fiz alguns exercícios e desenvolvi um projeto baseado nas aulas e diretrizes do "Concurso" para premiação.
+Foi muito interessante aprender como podemos integrar as AIs com códigos tradicionais, abrindo um leque gigantesco de possibilidades. Estou muito impolgado com os estudos e ansioso por aprender cada vez mais.
+
+____________________________________________________________
 Desafio proposto na imersão da Alura com Gemini AI.
 
 Utilizando o conceito de "Chain-of-Thought" foram passados 6 notícias do site Alternativa Online e logo após foi solicitado para o Gemini 5 propostas de títulos para uma notícia específica relacionado ao feriado japonês chamado "Midori no Hi" (Dia do verde).
