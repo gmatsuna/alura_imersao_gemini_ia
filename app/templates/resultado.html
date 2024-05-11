@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <title>Leitor de Cardapio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Leitor de cardapio.</h1><br>
+                </div>
+                <div>
+                    <h2>Resultado:</h2>
+                    <br/>
+                    <div>
+                        <img class="container__img" src="{{url}}">
+                    </div>
+                </div>
+                <div>
+                    <h3>{{url}}</h3>
+                </div>
+                <br/>
+                <div >
+                    <h3 class="container__texto__azul">{{response.text}}</h3>
+                    <br/>
+                    <br/>
+                    <audio id="player" autoplay="autoplay" controls="controls">
+                        <source src="static/audio.mp3" type="audio/mp3" />
+                        seu navegador não suporta HTML5
+                    </audio>
+                    <br/>
+                </div>
+                <form action="/">
+                    <button class="container__botao" type="submit">Return</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
