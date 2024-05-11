@@ -13,7 +13,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-api_key = "AIzaSyDwPRIkiaa1Eh-cD6xaeiw6PGiyFd-ThEc"
+api_key = "API_KEY"
 genai.configure(api_key=api_key)
 
 # Routa Index
